@@ -31,7 +31,7 @@ def indexToBoardNum(arrIndex):
     return boardNum
 
 def findMoved(oldBoard, newBoard):
-    for i in range(0, 63):
+    for i in range(0, 64):
         if(oldBoard[i] != newBoard[i]):
             return (indexToBoardNum(i))
 
